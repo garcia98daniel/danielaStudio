@@ -1,0 +1,19 @@
+.blog {
+  display: grid;
+  gap: 4rem;
+}
+
+.heading{
+  line-height: 0.9em;
+  /* font-weight: 300; */
+}
+@media (min-width: 768px) {
+  .blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .blog {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
