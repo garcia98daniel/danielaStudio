@@ -7,7 +7,7 @@ const Layout = ({ children, pagina, blogs }) => {
   return (
     <div>
       <Head>
-        <title>Daniela Adarraga Studio - Maquillaje para novia - Boda - Colombia - {pagina}</title>
+        <title>Daniela Adarraga Studio - Maquillaje de novia - Boda - Colombia - {pagina}</title>
         <meta name="description" content="Sitio Web de venta de guitarras" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />

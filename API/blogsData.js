@@ -6,7 +6,7 @@ import blog3 from "../public/img/novia2.jpg";
 export const entradas = [
   {
     id: uuidv4(),
-    titulo: "Maquillaje para Novia",
+    titulo: "Maquillaje de Novia",
     resumen:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quo fugit, earum fugiat aliquid voluptatibus. Ducimus, porro? Maiores quos quasi alias in dolore.",
     contenido:
