@@ -21,7 +21,7 @@
 }
 .precio {
   color: var(--primary);
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 900;
   margin: 0;
 }
@@ -37,7 +37,7 @@
   border: 2px solid var(--primary);
   transition-property: background-color;
   transition-duration: 0.3s;
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
 }
 .enlace:hover {
   background-color: var(--primary);

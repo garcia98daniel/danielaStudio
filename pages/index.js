@@ -4,6 +4,8 @@ import Curso from "../components/Curso";
 import { guitarras } from "../API/guitarrasData.js";
 import { entradas } from "../API/blogsData.js";
 import ListadoBlog from "../components/ListadoBlog";
+import Link from "next/link";
+import styles from "../styles/index.module.css";
 
 export default function Home() {
   return (
@@ -14,8 +16,14 @@ export default function Home() {
       </section>
       </main>
       <Curso />
-        <h1 className="heading">Nuestra colección</h1>
+      <section className="contenedor">
+        <h2 className={`heading ${styles.product_section_tittle}`}>Productos Recomendados</h2>
+        <div className={styles.all_products_txt}>
+          <Link href="/tienda">Ver todo el catálogo</Link>
+        </div>
         <Listado guitarras={guitarras} />
+      </section>
+
     </Layout>
   );
 }

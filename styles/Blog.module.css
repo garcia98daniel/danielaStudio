@@ -4,8 +4,7 @@
 }
 
 .heading{
-  line-height: 0.9em;
-  /* font-weight: 300; */
+  margin: 10px 0;
 }
 @media (min-width: 768px) {
   .blog {

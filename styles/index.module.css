@@ -1,0 +1,30 @@
+.all_products_txt{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+.all_products_txt a{
+    cursor: pointer;
+    margin-top: 2rem;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: var(--negro);
+    border: 2px solid var(--primary);
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    padding: 1rem 5rem;
+}
+
+.all_products_txt a:hover {
+    background-color: var(--primary);
+    color: var(--blanco);
+  }
+
+.product_section_tittle{
+    margin: 0;
+    margin-top: 40px;
+}

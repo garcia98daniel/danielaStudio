@@ -23,7 +23,6 @@ h2 {
   font-size: 4em !important;
   font-family: var(--fuente-tittles);
   font-weight: bold;
-  line-height: 0em;
 }
 
 
@@ -38,10 +37,10 @@ img {
 }
 [class*="heading"] {
   font-family: var(--fuente-tittles);
-
-  /* font-size: 4rem; */
+  line-height: 0.9em;
+  font-size: 4rem;
   text-align: center;
-  font-weight: 900;
   color: var(--primary);
   margin: 5rem 0;
+  font-weight: bold;
 }

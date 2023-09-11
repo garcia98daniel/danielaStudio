@@ -50,9 +50,11 @@
   padding: 0.5rem;
   transition-property: background-color;
   transition-duration: 0.3s;
+  box-sizing: border-box;
 }
 .navegacion a:hover {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  border-bottom: 3px solid var(--primary);
 }
 .modelo {
   color: var(--blanco);
@@ -72,6 +74,8 @@
 }
 .modelo h2 {
   font-size: 5rem;
+  line-height: 0.9em;
+  margin: 0;
 }
 .modelo p:first-of-type {
   display: -webkit-box;

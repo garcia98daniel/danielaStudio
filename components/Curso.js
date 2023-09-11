@@ -1,22 +1,22 @@
 import styles from "../styles/Curso.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import cursos_bg from "../public/img/cursos_bg.jpg";
+import cursos_bg from "../public/img/damaynovias.png";
 
 const Curso = () => {
   return (
     <section>
       <div className={`contenedor ${styles.grid}`}>
         <div className={styles.contenido}>
-          <h2 className={"heading"}>Aprende a tocar guitarra</h2>
+          <h2 className={"heading"}>Más Acerca de Daniela Adarraga Studio</h2>
           <p className={styles.texto}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, optio
-            tempore. Architecto veniam quisquam odit tempora accusamus?
-            Consequuntur, quisquam quod eveniet id veniam eos accusantium!
+          Daniela Adarraga Studio es el hogar del arte del maquillaje en Colombia. Nuestro compromiso es realzar la belleza de cada mujer, llevando la perfección a cada trazo. Contamos con un talentoso equipo de maquilladoras altamente capacitadas, ubicadas estratégicamente en las principales ciudades del país, listas para hacer realidad tus sueños de belleza. En Daniela Adarraga Studio, transformamos cada ocasión en una experiencia única y memorable. ¡Déjanos ser parte de tu historia de belleza!
           </p>
-          <a className={styles.enlace} href="#">
-            Más información
-          </a>
+          <Link  href="/nosotros">
+            <div className={styles.enlace} >
+              ¿Quien es Daniela Adarraga?
+            </div>
+          </Link>
         </div>
       </div>
       <style jsx>
